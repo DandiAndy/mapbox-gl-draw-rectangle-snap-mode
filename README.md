@@ -22,7 +22,7 @@ import {
 
 
 const customOverrideModes = {
-  draw_rectangle: SnapRectangleMode
+  draw_rectangle: SnapRectangleMode,
   draw_point: SnapPointMode,
   draw_polygon: SnapPolygonMode,
   draw_line_string: SnapLineMode,
