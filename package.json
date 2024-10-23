@@ -1,15 +1,15 @@
 {
-  "name": "@ookla/mapbox-gl-draw-rectangle",
-  "version": "1.2.2",
-  "description": "A custom mode for MapboxGL Draw to draw rectangles that adds the functionality of keeping the rectangle's shape when adjusting a corner of the drawn rectangle",
+  "name": "@dandiandy/mapbox-gl-draw-snap-rectangle",
+  "version": "1.0.0",
+  "description": "A custom mode for MapboxGL Draw to draw rectangles that adds the functionality of keeping the rectangle's shape when adjusting a corner of the drawn rectangle, originally modified by teamookla (https://github.com/teamookla/mapbox-gl-draw-rectangle-mode). This version works with the snap mode library created by mhsattarian (https://github.com/mhsattarian/mapbox-gl-draw-snap-mode).",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "files": [
     "build"
   ],
-  "author": "Ookla",
+  "author": "DandiAndy",
   "license": "MIT",
-  "repository": "https://github.com/teamookla/mapbox-gl-draw-rectangle-mode",
+  "repository": "https://github.com/DandiAndy/mapbox-gl-draw-rectangle-snap-mode",
   "scripts": {
     "build": "rollup -c"
   },
